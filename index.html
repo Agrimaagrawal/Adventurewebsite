@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+        <li class="nav-item active"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="#tour">Tours</a></li>
+        <li class="nav-item"><a href="#explore">Explore</a></li>
+        <li class="nav-item"><a href="/">About</a></li>
+        <button class="btn"><a href="#" class="ctn">Contact</a></button>
+        
+    </ul>
+    <img src="./images/icons8-menu-rounded-50.png" class="menubtn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the NATURE</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <button class="btn"><a href="#" class="ctn">Learn More</a></button>
+        </div>
+    </header>
+    <section id="explore">
+        <h1>UPCOMING EVENTS</h1>
+        <div class="line"></div>
+        <div class="box">
+            <div class="event">
+                <img src="./images/pexels-oziel-gómez-868097.jpg">
+                <h4>Trekking</h4>
+                <p>Going on treks across the Kumaon and Garhwal Himalayas combines spirituality 
+                    with adventure Trekking in the Himalayas belt of Himachal Pradesh offers a chance to witness the ancient villages, high passes, and the ethereal natural beauty, making it an experience 
+                    to remember forever.</p>
+                    <button class="btn"><a href="#" class="ctn">Learn More</a></button> 
+            </div>
+            <div class="event">
+                <img src="./images/pexels-dó-castle-2158963.jpg">
+                <h4>Cycling</h4>
+                <p>Going downhill on a road bike is a combination of comfort level, knowing what your bike can handle and using a few standard techniques to keep you riding 
+                    securely and confidently.</p>
+                    <button class="btn"><a href="#" class="ctn">Learn More</a></button> 
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>The world is full of amazing places to see,visit and experiemce .Strike up the spirit of adventure and fill your family with urge to travel with these great places</p>
+        <button class="btn"><a href="#" class="ctn">Learn More</a></button> 
+    </div>
+    </section>
+    <section class="tours" id="tour">
+        <div class="row">
+            <div class="col">
+                <h1>UPCOMING TOURS AND DESTINATION</h1>
+                <div class="line">  </div>
+                <P>The Taj Mahal is not the only destination in India that attract tourist. Likewise, there are hundreds of tourist destination that is spread over the Indian plateau. India has a large variety of Flora and Fauna. Besides, the equator divides the geographical land of India into almost two equal halves that make India a country
+                     where six seasons occurs</P>
+                     <button class="btn"><a href="#" class="ctn">Learn More</a></button>   
+            </div>
+            <div class="col image-col">
+                <div class="img-gallery">
+                    <img src="./images/pexels-ahmad-syahrir-758744.jpg">
+                    <img src="./images/pexels-roman-odintsov-4553618.jpg">
+                    <img src="./images/pexels-dmitriy-ganin-7772723.jpg">
+                    <img src="./images/pexels-dziana-hasanbekava-5480835.jpg">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="footer">
+        <p>Made by Agrima Agrawal</p>
+
+    </section>
+
+    <script>
+        const menubtn=document.querySelector('.menubtn');
+        const navlinks=document.querySelector('.nav-links');
+        menubtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    
+</body>
+</html>
